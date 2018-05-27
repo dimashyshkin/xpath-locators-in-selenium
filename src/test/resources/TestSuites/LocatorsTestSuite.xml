@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LocatorsTestSuite" verbose="1" parallel="tests"
+	thread-count="10">
+
+	<test name="LocatorsTest-relativeXPath">
+		<parameter name="locator" value="relativeXPath"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-absoluteXPath">
+		<parameter name="locator" value="absoluteXPath"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-id">
+		<parameter name="locator" value="id"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-css">
+		<parameter name="locator" value="css"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-name">
+		<parameter name="locator" value="name"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-tag">
+		<parameter name="locator" value="tag"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>
