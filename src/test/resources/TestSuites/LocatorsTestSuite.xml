@@ -51,6 +51,28 @@
 		</classes>
 	</test>
 
+	<test name="LocatorsTest-className">
+		<parameter name="locator" value="className"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
 
+	<test name="LocatorsTest-linkText">
+		<parameter name="locator" value="linkText"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LocatorsTest-partialLinkText">
+		<parameter name="locator" value="partialLinkText"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.LocatorTests">
+			</class>
+		</classes>
+	</test>
 
 </suite>

@@ -22,6 +22,7 @@ public class LocatorTests extends Base {
 
 	private By getBy(String locator) {
 		switch (locator) {
+		// E-mail field
 		case "relativeXPath":
 			return By.xpath("//input[@id='email']");
 			
@@ -39,6 +40,17 @@ public class LocatorTests extends Base {
 			
 		case "tag":
 			return By.tagName("input");
+			
+		// 	Retrieve password button
+		case "className":
+			return By.className("radius");
+			
+		// 	Elemental Selenium link
+		case "linkText":
+			return By.linkText("Elemental Selenium");
+			
+		case "partialLinkText":
+			return By.partialLinkText("Elemental");
 
 		default:
 			return null;
