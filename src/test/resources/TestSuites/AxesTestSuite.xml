@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AxesTestSuite" verbose="1" parallel="tests"
+	thread-count="10">
+
+	<test name="LocatorsTest-relativeXPath">
+		<parameter name="locator" value="relativeXPath"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.AxesTests">
+			</class>
+		</classes>
+	</test>
+</suite>
